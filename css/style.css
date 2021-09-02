@@ -1,0 +1,50 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 300px;
+    background: url(../img/lorem_03.png) no-repeat;
+    background-size: 100%;
+    background-color: #cc4839;
+}
+
+
+
+h2 {
+    font-size: 35px;
+    color: gray;
+    position: absolute;
+    top: 0;
+    left: 170px;
+}
+
+
+
+button {
+    width: 300px;
+    height: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px white;
+    transition: 1s;
+    background-color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+    
+}
+
+
+#lorem_usuari {
+    margin-top: 600px;
+    text-align: justify;
+    padding: 0 30px;
+}
