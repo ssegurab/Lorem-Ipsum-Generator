@@ -29,32 +29,35 @@
 
 <body>
 	<header>
-		<article class="article">
-			<form id="datos" class="datos" onsubmit="dameDatos()">
-				<div class="numPalabras">
-					<label for="palabras">Indica cuantas palabras quieres:</label>
-					<input type="number" id="palabras" class="palabras" name="palabras" >
+		<article class="top">
+			<button onclick="lorem_generator()">Lorem Ipsum Generator</button>
+
+			<form id="datos" onsubmit="dameDatos()">
+				<div class="palabras">
+					<label for="">Indica cuantas palabras quieres:</label>
+					<input type="number" id="palabras" name="palabras" >
+				</div>
+				<div class="parrafos">
+					<label for="">Indica cuantos párrafos quieres:</label>
+					<input type="number" id="parrafos" name="parrafos" >
 					
 				</div>
-				
-				<div class="numParrafos">
-					<label for="parrafos">Indica cuantos párrafos quieres:</label>
-					<input type="number" id="parrafos" name="parrafos" >
-				</div>			
+				<div>
+					<button type="button" id="submit" onclick="captura()" value="enviar">Enviar</button>
+				</div>					
 			</form>
-			<button type="button" id="button" class="loremButton" onclick="captura()" value="button">Lorem Ipsum Generator</button>
 		</article>
 	</header>
 	<main>
-		<article>
-			<div id="user_lorem" class="user_lorem"></div>
+		<article class="bottom">
+			<div id="lorem_usuari"></div>
 		</article>
 	</main>
 	<footer></footer>
 
 	<!-- Enllaç a Javascript Extern -->
-	<script type="text/javascript" src="js/javascript.js"></script>
-	<!-- <script type="text/javascript" src="js/javascriptold.js"></script> -->
+	<script type="text/javascript" src="js/formscript.js"></script>
+	<!-- <script type="text/javascript" src="js/javascript.js"></script> -->
 </body>
 
 </html>

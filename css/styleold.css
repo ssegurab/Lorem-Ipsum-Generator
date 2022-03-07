@@ -1,11 +1,11 @@
 body {
     background: black;
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 21pt;
     font-weight: bold;
-    text-align: justify;
-    margin-top: 200px;
+    text-align: center;
+    margin-top: 250px;
     background: url(../img/lorem_background.png) no-repeat;
     background-size: 100%;
     background-color: #cc4839;
@@ -46,30 +46,6 @@ button:hover {
     border: 1px solid transparent;
 }
 
-.user_lorem {
-    padding-top: 550px;
-    margin-top: 50px;
-}
-
-
-.loremButton {
-    margin-top: 50px;
-    margin-left: 85px;    
-}
-
-.datos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-left: 600px;
-    justify-content: space-between;
-
-}
-
-.article {
-    display: flex;
-}
-
-input {
-    padding: 10px;
+div {
+    margin-top: 100px;
 }
