@@ -7,21 +7,21 @@ body {
     background: black;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 21pt;
+    font-size: 22px;
     font-weight: bold;
     text-align: justify;
-    margin-top: 200px;
+    margin-top: 220px;
     background: url(../img/lorem_background_03.png) no-repeat;
     background-size: 100%;
     background-color: #cc4839;
 }
 
-img{
+/* img{
     position: absolute;
     top: 0;
     min-width: 100%;
     
-}
+} */
 
 /* h2 {
     font-size: 35px;
@@ -50,7 +50,7 @@ img{
 }
 
 input {
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: bold;
@@ -98,20 +98,30 @@ p {
     padding: 2vh 6%;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (min-width:276px) {
     .datos {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1600px;
-        margin-left: 170px;
+        max-width: 100%;
+        margin-top: 400px;
+        margin-left: 80px;
+        
     }
+    
     .loremButton {
-        margin-top: 1000px;
-        margin-left: 540px;
+        margin-top: 750px;
+        margin-left: 330px;
+        width: 300px;
+        height: 100px;
+        font-size: 35px;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px black;
+        transition: 1s;
+        background-color: white;
+        font-weight: bold;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:1200px) {
     .datos {
         display: flex;
         flex-direction: column;
