@@ -186,26 +186,27 @@
     }
 }
 
+/* 
 @media screen and (max-width:768px){
     
     .article__form{
-        /* background-color: blueviolet; */
+        /* background-color: blueviolet; 
         width: 100%;
         margin: auto;
     }
     .form__lorem{
-        /* background-color: darkkhaki; */
+        /* background-color: darkkhaki; 
         margin: 70vh auto;
     }
     .palabras__label{
-        /* background-color: lightcoral; */
+        /* background-color: lightcoral; 
         font-size: 4vw;
         font-weight: bold;
         margin-right: 1%;
         margin-bottom: 2vh;
     }
     .palabras__input{
-        /* background-color: #cc4839; */
+        /* background-color: #cc4839; 
         margin-left: 1%;
         margin-bottom: 2vh;
         text-align: center;
@@ -214,14 +215,14 @@
         width: 30%;    
     }
     .parrafos__label{
-        /* background-color: lightsalmon; */
+        /* background-color: lightsalmon; 
         font-size: 4vw;
         font-weight: bold;
         margin-right: 1%;
         margin-top: 1vh;
     }
     .parrafos__input{
-        /* background-color: yellowgreen; */
+        /* background-color: yellowgreen; 
         margin-left: 1.4%;
         margin-top: 1vh;
         text-align: center;
@@ -230,7 +231,7 @@
         width: 30%;
     }
     .button__generate{
-        /* background-color: lightseagreen; */
+        /* background-color: lightseagreen; 
         display: block;
         width: 28%;
         margin: auto;
@@ -249,38 +250,39 @@
         box-shadow: 8px 8px 8px lightgray;
     }
     .generated__paragraph{
-        /* background-color: viole;*/
+        /* background-color: viole;
         margin-top: -20vh;
         padding: 3vh 7vw;
     }
     .paragraph__lorem{
-        /* background-color: teal; */
+        /* background-color: teal; 
         font-size: 4vw;
         text-align: justify;
     }
 }
+*/
 
-
+/* 
 @media screen and (max-width:960px){
     
     .article__form{
-        /* background-color: blueviolet; */
+        /* background-color: blueviolet; 
         width: 100%;
         margin: auto;
     }
     .form__lorem{
-        /* background-color: darkkhaki; */
+        /* background-color: darkkhaki; 
         margin: 70vh auto;
     }
     .palabras__label{
-        /* background-color: lightcoral; */
+        /* background-color: lightcoral; 
         font-size: 4vw;
         font-weight: bold;
         margin-right: 1%;
         margin-bottom: 2vh;
     }
     .palabras__input{
-        /* background-color: #cc4839; */
+        /* background-color: #cc4839; 
         margin-left: 1%;
         margin-bottom: 2vh;
         text-align: center;
@@ -289,14 +291,14 @@
         width: 30%;    
     }
     .parrafos__label{
-        /* background-color: lightsalmon; */
+        /* background-color: lightsalmon; 
         font-size: 4vw;
         font-weight: bold;
         margin-right: 1%;
         margin-top: 1vh;
     }
     .parrafos__input{
-        /* background-color: yellowgreen; */
+        /* background-color: yellowgreen; 
         margin-left: 1.4%;
         margin-top: 1vh;
         text-align: center;
@@ -305,7 +307,7 @@
         width: 30%;
     }
     .button__generate{
-        /* background-color: lightseagreen; */
+        /* background-color: lightseagreen; 
         display: block;
         width: 28%;
         margin: auto;
@@ -324,37 +326,38 @@
         box-shadow: 8px 8px 8px lightgray;
     }
     .generated__paragraph{
-        /* background-color: viole;*/
+        /* background-color: viole;
         margin-top: -20vh;
         padding: 3vh 7vw;
     }
     .paragraph__lorem{
-        /* background-color: teal; */
+        /* background-color: teal; 
         font-size: 4vw;
         text-align: justify;
     }
 }
-
+ */
+/* 
 @media screen and (max-width:1024px){
     
     .article__form{
-        /* background-color: blueviolet; */
+        /* background-color: blueviolet; 
         width: 100%;
         margin: auto;
     }
     .form__lorem{
-        /* background-color: darkkhaki; */
+        /* background-color: darkkhaki; 
         margin: 75vh auto;
     }
     .palabras__label{
-        /* background-color: lightcoral; */
+        /* background-color: lightcoral; 
         font-size: 2vw;
         font-weight: bold;
         margin-right: 1%;
         margin-bottom: 1vh;
     }
     .palabras__input{
-        /* background-color: #cc4839; */
+        /* background-color: #cc4839; 
         margin-left: 1%;
         margin-bottom: 1vh;
         text-align: center;
@@ -362,14 +365,14 @@
         font-weight: bold;    
     }
     .parrafos__label{
-        /* background-color: lightsalmon; */
+        /* background-color: lightsalmon; 
         font-size: 2vw;
         font-weight: bold;
         margin-right: 1%;
         margin-top: 1vh;
     }
     .parrafos__input{
-        /* background-color: yellowgreen; */
+        /* background-color: yellowgreen; 
         margin-left: 1%;
         margin-top: 1vh;
         text-align: center;
@@ -377,7 +380,7 @@
         font-weight: bold; 
     }
     .button__generate{
-        /* background-color: lightseagreen; */
+        /* background-color: lightseagreen; 
         display: block;
         width: 17%;
         margin: auto;
@@ -396,37 +399,39 @@
         box-shadow: 8px 8px 8px lightgray;
     }
     .generated__paragraph{
-        /* background-color: viole;*/
+        /* background-color: viole;
         margin-top: -70vh;
         padding: 3vh 7vw;
     }
     .paragraph__lorem{
-        /* background-color: teal; */
+        /* background-color: teal; 
         font-size: 2vw;
         text-align: justify;
     }
 }
+*/
 
+/*  
 @media screen and (max-width:1328px){
     
     .article__form{
-        /* background-color: blueviolet; */
+        /* background-color: blueviolet; 
         width: 100%;
         margin: auto;
     }
     .form__lorem{
-        /* background-color: darkkhaki; */
+        /* background-color: darkkhaki; 
         margin: 77vh auto;
     }
     .palabras__label{
-        /* background-color: lightcoral; */
+        /* background-color: lightcoral; 
         font-size: 2vw;
         font-weight: bold;
         margin-right: 1%;
         margin-bottom: 1vh;
     }
     .palabras__input{
-        /* background-color: #cc4839; */
+        /* background-color: #cc4839; 
         margin-left: 1%;
         margin-bottom: 1vh;
         text-align: center;
@@ -434,14 +439,14 @@
         font-weight: bold;    
     }
     .parrafos__label{
-        /* background-color: lightsalmon; */
+        /* background-color: lightsalmon; 
         font-size: 2vw;
         font-weight: bold;
         margin-right: 1%;
         margin-top: 1vh;
     }
     .parrafos__input{
-        /* background-color: yellowgreen; */
+        /* background-color: yellowgreen; 
         margin-left: 1%;
         margin-top: 1vh;
         text-align: center;
@@ -449,7 +454,7 @@
         font-weight: bold; 
     }
     .button__generate{
-        /* background-color: lightseagreen; */
+        /* background-color: lightseagreen; 
         display: block;
         width: 17%;
         margin: auto;
@@ -468,13 +473,13 @@
         box-shadow: 8px 8px 8px lightgray;
     }
     .generated__paragraph{
-        /* background-color: viole;*/
+        /* background-color: viole;
         margin-top: -70vh;
         padding: 3vh 7vw;
     }
     .paragraph__lorem{
-        /* background-color: teal; */
+        /* background-color: teal; 
         font-size: 2vw;
         text-align: justify;
     }
-}
+} */
