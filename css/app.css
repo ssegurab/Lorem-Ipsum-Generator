@@ -123,7 +123,7 @@
     
     .form__lorem{
         /* background-color: darkkhaki; */
-        margin: 40vh auto;
+        margin: 50vh auto;
     }
 
     .lorem__palabras{
@@ -136,7 +136,8 @@
 
     .palabras__label{
         /* background-color: lightcoral; */
-        font-size: 3.5vw;
+        font-size: 4vw;
+        font-weight: bold;
         margin-right: 1%;
         margin-bottom: 1vh;
     }
@@ -145,13 +146,15 @@
         margin-left: 1%;
         margin-bottom: 1vh;
         text-align: center;
-        font-size: 3vw;
-        font-weight: bold;    
+        font-size: 4vw;
+        font-weight: bold;
+        width: 30%;    
     }
 
     .parrafos__label{
         /* background-color: lightsalmon; */
-        font-size: 3.5vw;
+        font-size: 4vw;
+        font-weight: bold;
         margin-right: 1%;
         margin-top: 1vh;
     }
@@ -168,23 +171,24 @@
         margin-left: 1%;
         margin-top: 1vh;
         text-align: center;
-        font-size: 3vw;
+        font-size: 4vw;
         font-weight: bold; 
+        width: 30%;
     }
 
     .button__generate{
         /* background-color: lightseagreen; */
         display: block;
-        width: 25%;
+        width: 28%;
         margin: auto;
         position: absolute;
-        top: 50vh;
+        top: 70vh;
         margin-left: 38vw;
-        font-size: 3.5vw;
+        font-size: 4vw;
         padding: 1%;
         border-radius: 10px;
         box-shadow: 8px 8px 8px black;
-        transition: all 0.7s;
+        transition: all 1s;
     }
     .button__generate:hover{
         background-color: black;
@@ -199,7 +203,7 @@
     }
     .paragraph__lorem{
         /* background-color: teal; */
-        font-size: 1.5vw;
+        font-size: 4vw;
         text-align: justify;
     }
 }
