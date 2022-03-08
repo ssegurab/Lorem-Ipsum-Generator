@@ -1,66 +1,56 @@
 ﻿<!doctype html>
 <html lang="es">
 
-<head>
-    <!-- Informació Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lorem Ipsum">
-    <meta name="keywords" content="Lorem, Ipsum">
-    <meta name="author" content="Lorem Ipsum">
+    <head>
+        <!-- Información Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Lorem Ipsum">
+        <meta name="keywords" content="Lorem, Ipsum">
+        <meta name="author" content="Lorem Ipsum">
 
-    <!-- Google Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!-- Enlace al archivo CSS Externo -->
+        <link rel="stylesheet" href="css/app.css" type="text/css"/>
 
-    <!-- Enllaç a l'arxiu CSS Extern -->
-    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"/> -->
-    <link rel="stylesheet" href="css/app.css" type="text/css"/>
+        <!-- favicon -->
+        <link href="img/favicon.png" rel="icon" type="image/png"/>
 
+        <!-- Título de la página -->
+        <title>Lorem Ipsum Generator</title>
+    </head>
 
-
-    <!-- favicon -->
-    <link href="img/favicon.png" rel="icon" type="image/png" />
-
-    <!-- Títol de la pàgina -->
-    <title>Lorem Ipsum Generator</title>
-</head>
-
-<body class="body">
-    <!-- <img src="img/lorem_background_03.png"> -->
-    <section class="body__section">
-        <article class="section__article">
-            <form id="article__form" class="article__form">
-                <div class="form__lorem">
-                    <div class="lorem__palabras">
-                        <label for="palabras__label" id="palabras_label" class="palabras__label" name="palabras">Indica cuantas palabras quieres:</label>
-                        <input type="number" id="palabras__input" class="palabras__input" name="palabras">
+    <body class="body">
+        <section class="body__section">
+            <article class="section__article">
+                <form id="article__form" class="article__form">
+                    <div class="form__lorem">
+                        <div class="lorem__palabras">
+                            <label for="palabras__label" id="palabras_label" class="palabras__label" name="palabras">Indica cuantas palabras quieres:</label>
+                            <input type="number" id="palabras__input" class="palabras__input" name="palabras">
+                        </div>
+                        <div class="lorem__parrafos">
+                            <label for="parrafos__label" id="parrafos__label" class="parrafos__label" name="parrafos">Indica cuantos párrafos quieres:</label>
+                            <input type="number" id="parrafos__input" class="parrafos__input" name="parrafos">
+                        </div>
                     </div>
-                    <div class="lorem__parrafos">
-                        <label for="parrafos__label" id="parrafos__label" class="parrafos__label" name="parrafos">Indica cuantos párrafos quieres:</label>
-                        <input type="number" id="parrafos__input" class="parrafos__input" name="parrafos">
-                    </div>
-                </div>
-                <button type="button" id="button__generate" class="button__generate" onclick="generate()" value="button">Lorem Ipsum Generator</button>
-            </form>
-        </articless=>
-    </section>
-    <main id="lorem__generated" class="lorem__generated">
-        <article class="generated__paragraph">
-            <div id="paragraph__lorem" class="paragraph__lorem"></div>
-        </article>
-    </main>
-    <footer></footer>
+                    <button type="button" id="button__generate" class="button__generate" onclick="generate()" value="button">Lorem Ipsum Generator</button>
+                </form>
+            </article>
+        </section>
+        <main id="lorem__generated" class="lorem__generated">
+            <article class="generated__paragraph">
+                <div id="paragraph__lorem" class="paragraph__lorem"></div>
+            </article>
+        </main>
+        <footer></footer>
 
-    <!-- Enllaç a Javascript Extern -->
-    <script type="text/javascript" src="js/javascript.js"></script>
-    <!-- <script type="text/javascript" src="js/javascriptold.js"></script> -->
-</body>
-
+        <!-- Enlace a Javascript Externo -->
+        <script type="text/javascript" src="js/app.js"></script>
+    </body>
 </html>
