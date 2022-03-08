@@ -2,59 +2,56 @@
 <html lang="es">
 
 <head>
-	<!-- Informació Meta -->
-	<meta charset="utf-8" />
-	<meta name="description" content="Lorem Ipsum">
-	<meta name="keywords" content="Lorem, Ipsum">
-	<meta name="author" content="Lorem Ipsum">
+    <!-- Informació Meta -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Lorem Ipsum">
+    <meta name="keywords" content="Lorem, Ipsum">
+    <meta name="author" content="Lorem Ipsum">
 
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-	<!-- Enllaç a l'arxiu CSS Extern -->
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Enllaç a l'arxiu CSS Extern -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-	
 
-	<!-- favicon -->
-	<link href="img/favicon.png" rel="icon" type="image/png" />
 
-	<!-- Títol de la pàgina -->
-	<title>Lorem Ipsum Generator</title>
+    <!-- favicon -->
+    <link href="img/favicon.png" rel="icon" type="image/png" />
+
+    <!-- Títol de la pàgina -->
+    <title>Lorem Ipsum Generator</title>
 </head>
 
 <body>
-	<header>
-		<article class="article">
-			<form id="datos" class="datos" onsubmit="dameDatos()">
-				<div class="numPalabras">
-					<label for="palabras">Indica cuantas palabras quieres:</label>
-					<input type="number" id="palabras" class="palabras" name="palabras" >
-					
-				</div>
-				
-				<div class="numParrafos">
-					<label for="parrafos">Indica cuantos párrafos quieres:</label>
-					<input type="number" id="parrafos" name="parrafos" >
-				</div>			
-			</form>
-			<button type="button" id="button" class="loremButton" onclick="captura()" value="button">Lorem Ipsum Generator</button>
-		</article>
-	</header>
-	<main>
-		<article>
-			<div id="user_lorem" class="user_lorem"></div>
-		</article>
-	</main>
-	<footer></footer>
+    <header>
+        <article class="article">
+            <form id="datos" class="datos" onsubmit="dameDatos()">
+                <div class="numPalabras">
+                    <label for="palabras">Indica cuantas palabras quieres:</label>
+                    <input type="number" id="palabras" class="palabras" name="palabras">
 
-	<!-- Enllaç a Javascript Extern -->
-	<script type="text/javascript" src="js/javascript.js"></script>
-	<!-- <script type="text/javascript" src="js/javascriptold.js"></script> -->
+                </div>
+                <div class="numParrafos">
+                    <label for="parrafos">Indica cuantos párrafos quieres:</label>
+                    <input type="number" id="parrafos" name="parrafos">
+                </div>
+            </form>
+            <button type="button" id="button" class="loremButton" onclick="captura()" value="button">Lorem Ipsum Generator</button>
+        </article>
+    </header>
+    <main>
+        <article>
+            <div id="user_lorem" class="user_lorem"></div>
+        </article>
+    </main>
+    <footer></footer>
+
+    <!-- Enllaç a Javascript Extern -->
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <!-- <script type="text/javascript" src="js/javascriptold.js"></script> -->
 </body>
 
 </html>
