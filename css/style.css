@@ -11,15 +11,15 @@ body {
     font-weight: bold;
     text-align: justify;
     margin-top: 200px;
-    /* background: url(../img/lorem_background.png) no-repeat;
-    background-size: 100%; */
+    background: url(../img/lorem_background_03.png) no-repeat;
+    background-size: 100%;
     background-color: #cc4839;
 }
 
 img{
     position: absolute;
     top: 0;
-    width: 100%;
+    min-width: 100%;
     
 }
 
