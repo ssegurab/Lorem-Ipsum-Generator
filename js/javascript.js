@@ -22,7 +22,7 @@ function captura() {
             lorem_print = lorem_print + array_lorem[aleatorio] + " ";
         }
 
-        document.getElementById("user_lorem").innerHTML += "<p> lorem ipsum " + lorem_print + " .</p>";
+        document.getElementById("user_lorem").innerHTML += "<p> lorem ipsum " + lorem_print + ".</p>";
 
         lorem_print = "";
 
