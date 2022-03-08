@@ -123,7 +123,7 @@
     
     .form__lorem{
         /* background-color: darkkhaki; */
-        margin: 30vh auto;
+        margin: 40vh auto;
     }
 
     .lorem__palabras{
@@ -136,7 +136,7 @@
 
     .palabras__label{
         /* background-color: lightcoral; */
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin-right: 1%;
         margin-bottom: 1vh;
     }
@@ -151,7 +151,7 @@
 
     .parrafos__label{
         /* background-color: lightsalmon; */
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin-right: 1%;
         margin-top: 1vh;
     }
@@ -178,18 +178,18 @@
         width: 25%;
         margin: auto;
         position: absolute;
-        top: 42vh;
+        top: 50vh;
         margin-left: 38vw;
-        font-size: 1.5vw;
+        font-size: 3.5vw;
         padding: 1%;
         border-radius: 10px;
-        box-shadow: 10px 10px 10px black;
+        box-shadow: 8px 8px 8px black;
         transition: all 0.7s;
     }
     .button__generate:hover{
         background-color: black;
         color: white;
-        box-shadow: 10px 10px 10px white;
+        box-shadow: 8px 8px 8px lightgray;
     }
 
     .generated__paragraph{
