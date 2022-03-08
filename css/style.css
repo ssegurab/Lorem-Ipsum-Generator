@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: black;
     color: black;
@@ -6,11 +11,17 @@ body {
     font-weight: bold;
     text-align: justify;
     margin-top: 200px;
-    background: url(../img/lorem_background.png) no-repeat;
-    background-size: 100%;
+    /* background: url(../img/lorem_background.png) no-repeat;
+    background-size: 100%; */
     background-color: #cc4839;
 }
 
+img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
 
 /* h2 {
     font-size: 35px;
@@ -30,7 +41,7 @@ body {
 
 .datos {
     position: absolute;
-    width: 1000px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 90px;
@@ -55,8 +66,9 @@ input {
 }
 
 .loremButton {
-    margin-top: 50px;
-    margin-left: 85px;
+    position: absolute;
+    top: 120px;
+    margin-left: 750px;
     width: 300px;
     height: 100px;
     font-size: 35px;
@@ -81,10 +93,25 @@ input {
 }
 
 p {
-    padding: 20px 80px 0 80px;
+    position: relative;
+    top: 30vh;
+    padding: 2vh 6%;
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:576px) {
+    .datos {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1600px;
+        margin-left: 170px;
+    }
+    .loremButton {
+        margin-top: 1000px;
+        margin-left: 540px;
+    }
+}
+
+@media screen and (max-width:768px) {
     .datos {
         display: flex;
         flex-direction: column;
