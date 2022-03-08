@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image: url(../img/lorem_background_03.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    background-color: #cc4839;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body__section{
+    /* background-color: aqua; */
+    
+}
+.section__article{
+    /* background-color: blue; */
+    
+}
+.article__form{
+    /* background-color: blueviolet; */
+    width: 50%;
+    margin: auto;
+    
+}
+.form__lorem{
+    /* background-color: darkkhaki; */
+    margin: 35vh auto;
+}
+.lorem__palabras{
+    /* background-color: lightgreen; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.palabras__label{
+    /* background-color: lightcoral; */
+    font-size: 1.5vw;
+    margin-right: 1%;
+    margin-bottom: 1vh;
+}
+.palabras__input{
+    /* background-color: #cc4839; */
+    margin-left: 1%;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;    
+}
+.palabras__input:focus{
+    background-color: #EBB6B0;
+}
+.lorem__parrafos{
+    /* background-color: lightpink; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parrafos__label{
+    /* background-color: lightsalmon; */
+    font-size: 1.5vw;
+    margin-right: 1%;
+    margin-top: 1vh;
+}
+.parrafos__input{
+    /* background-color: yellowgreen; */
+    margin-left: 1%;
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold; 
+}
+.parrafos__input:focus{
+    background-color: #EBB6B0;
+}
+.button__generate{
+    /* background-color: lightseagreen; */
+    display: block;
+    width: 25%;
+    margin: auto;
+    position: relative;
+    top: -65vh;
+    font-size: 1.5vw;
+    padding: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    transition: all 0.7s;
+}
+.button__generate:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 10px white;
+}
+.lorem__generated{
+    /* background-color: yellow;*/
+   
+}
+.generated__paragraph{
+    /* background-color: viole;*/
+     margin-top: 15vh;
+    padding: 7vh 7vw;
+}
+.paragraph__lorem{
+    /* background-color: teal; */
+    font-size: 1.5vw;
+    text-align: justify;
+   
+}

@@ -4,17 +4,24 @@
 <head>
     <!-- Informació Meta -->
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lorem Ipsum">
     <meta name="keywords" content="Lorem, Ipsum">
     <meta name="author" content="Lorem Ipsum">
 
     <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Enllaç a l'arxiu CSS Extern -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"/> -->
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
 
 
 
@@ -25,27 +32,28 @@
     <title>Lorem Ipsum Generator</title>
 </head>
 
-<body>
+<body class="body">
     <!-- <img src="img/lorem_background_03.png"> -->
-    <header>
-        <article class="article">
-            <form id="datos" class="datos" onsubmit="dameDatos()">
-                <div class="numPalabras">
-                    <label for="palabras">Indica cuantas palabras quieres:</label>
-                    <input type="number" id="palabras" class="palabras" name="palabras">
-
+    <section class="body__section">
+        <article class="section__article">
+            <form id="article__form" class="article__form">
+                <div class="form__lorem">
+                    <div class="lorem__palabras">
+                        <label for="palabras__label" id="palabras_label" class="palabras__label" name="palabras">Indica cuantas palabras quieres:</label>
+                        <input type="number" id="palabras__input" class="palabras__input" name="palabras">
+                    </div>
+                    <div class="lorem__parrafos">
+                        <label for="parrafos__label" id="parrafos__label" class="parrafos__label" name="parrafos">Indica cuantos párrafos quieres:</label>
+                        <input type="number" id="parrafos__input" class="parrafos__input" name="parrafos">
+                    </div>
                 </div>
-                <div class="numParrafos">
-                    <label for="parrafos">Indica cuantos párrafos quieres:</label>
-                    <input type="number" id="parrafos" name="parrafos">
-                </div>
+                <button type="button" id="button__generate" class="button__generate" onclick="generate()" value="button">Lorem Ipsum Generator</button>
             </form>
-            <button type="button" id="button" class="loremButton" onclick="captura()" value="button">Lorem Ipsum Generator</button>
-        </article>
-    </header>
-    <main>
-        <article>
-            <div id="user_lorem" class="user_lorem"></div>
+        </articless=>
+    </section>
+    <main id="lorem__generated" class="lorem__generated">
+        <article class="generated__paragraph">
+            <div id="paragraph__lorem" class="paragraph__lorem"></div>
         </article>
     </main>
     <footer></footer>
